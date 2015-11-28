@@ -1,0 +1,33 @@
+---
+title: "automation and pipelines"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Perform exploratory analyses
+
+
++ Bring the data in as data frame.
++ Save a couple descriptive plots to file with highly informative names.
++ Reorder the continents based on life expectancy. You decide the details.
++ Sort the actual data in a deliberate fashion. You decide the details, but this should at least implement your new continent ordering.
++ Write the Gapminder data to file(s), for immediate and future reuse.
+
+
+### Perform statistical analyses
+
+
++ Import the data created in the first script.
++ Make sure your new continent order is still in force. You decide the details.
++ Fit a linear regression of life expectancy on year within each country. Write the estimated intercepts, slopes, and residual error variance (or sd) to file.
++ Find the 3 or 4 “worst” and “best” countries for each continent. You decide the details.
++ Write the linear regression info for just these countries to file.
+
+
+### Generate figures
+
+
+Create a figure for each continent, including data only for the 6-8 “extreme” countries, and write to file. One file per continent, with an informative name. The figure should give scatterplots of life expectancy vs. year, facetting on country, fitted line overlaid.
