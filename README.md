@@ -2,7 +2,7 @@
 
 For this homework, I had to create a Makefile! 
 
-Basically, what my pipelines does can be summarised here:
+Basically, the way my pipeline flows can be summarised here:
 
 
 
